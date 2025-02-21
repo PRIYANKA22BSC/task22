@@ -1,0 +1,59 @@
+#main-container{
+ overflow-y:auto ;
+  display: grid;
+  margin-top: 20vh;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  padding-left: 5vw;
+}
+#cards{
+  background-color:rgb(218, 114, 45);
+  width:40vw;
+  height: 110vh;
+  padding:2vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#top-div{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vw;
+
+}
+#card-name{
+  font-weight: bold;
+  font-size:xx-large;
+}
+#bottom-div{
+  display: flex;
+  flex-direction: column;
+  gap:2vh;
+  margin-top: 2vh;
+}
+
+#card-img{
+  width: 18vw;
+  border-radius: 50%;
+}
+
+input{
+  display: flex;
+align-items: center;
+outline: none;
+border: 1px solid black;
+width:55vw;
+height:8vh;
+border-radius:45px;
+padding-left:6px;
+margin-top: 5vh;
+margin-left: 22vw;
+
+}
+
+#loading{
+  margin-left:40vw;
+  font-weight: bolder;
+  font-size: 28px;
+}
